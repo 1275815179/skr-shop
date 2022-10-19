@@ -1,0 +1,219 @@
+p{
+    margin-bottom: 0em !important;
+}
+.dev-shop-content {
+    width: 100%;
+
+    .dev-shop-detail-box,
+    .dev-shop-review-box,
+    .dev-shop-qa-box,
+    .dev-shop-return-box {
+        margin: 100px 0;
+    }
+
+    .dev-shop-detail-box {
+        .dev-shop-nav-detail {
+        cursor: pointer;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                line-height: 60px;
+                text-align: center;
+                width: 325px;
+                color: #999;
+                border: 1px solid #ccc;
+                border-bottom: 2px solid black;
+            }
+
+            #detail {
+                border: 2px solid black;
+                border-bottom: none;
+            }
+        }
+
+        .dev-shop-imgs {
+            width: 1000px;
+            margin: 50px auto;
+            text-align: center;
+
+            li {
+                margin-bottom: 20px;
+
+                img {
+                    width: 1000px;
+                }
+            }
+        }
+    }
+
+    .dev-shop-review-box {
+        margin-bottom: 250px;
+        .dev-shop-nav-review {
+        cursor: pointer;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                line-height: 60px;
+                text-align: center;
+                width: 325px;
+                color: #999;
+                border: 1px solid #ccc;
+                border-bottom: 2px solid black;
+            }
+
+            #review {
+                border: 2px solid black;
+                border-bottom: none;
+            }
+        }
+
+        .dev-shop-appraise {
+            width: 500px;
+            h1 {
+                margin: 30px 0;
+                font-size: 30px;
+            }
+            p{
+                padding: 10px 0;
+            }
+            
+
+            span {
+                font-size: 40px;
+                .anticon-star{
+                    svg{
+                        font-size: 40px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+
+            .num {
+                color: #666;
+            }
+        }
+    }
+
+    .dev-shop-qa-box {
+        .dev-shop-nav-qa {
+        cursor: pointer;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                line-height: 60px;
+                text-align: center;
+                width: 325px;
+                color: #999;
+                border: 1px solid #ccc;
+                border-bottom: 2px solid black;
+            }
+
+            #qa {
+                border: 2px solid black;
+                border-bottom: none;
+            }
+
+        }
+
+        .dev-shop-consult {
+            width: 200px;
+            height: 50px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            position: relative;
+            top: 20px;
+            left: 1025px;
+        }
+    }
+
+    .dev-shop-return-box {
+        .dev-shop-nav-return {
+        cursor: pointer;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                line-height: 60px;
+                text-align: center;
+                width: 325px;
+                color: #999;
+                border: 1px solid #ccc;
+                border-bottom: 2px solid black;
+            }
+
+            #return {
+                border: 2px solid black;
+                border-bottom: none;
+            }
+        }
+
+        .dev-shop-word {
+            margin: 50px 0;
+              h2{
+                font-size: 25px;
+              }
+            p {
+                color: #666;
+            }
+        }
+
+        .dev-shop-delivery ,.dev-shop-cacel,.dev-shop-barter,.dev-shop-as{
+            border: 1px solid #ccc;
+            border-right: none;
+            border-left: none;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                width: 250px;
+                background-color: #FAFAFA;
+                text-align: center;
+                font-size: 18px;
+                line-height: 140px;
+            }
+
+            ul {
+                width: 1000px;
+                margin-left: 40px;
+                margin-top: 12px;
+                li {
+                    list-style: disc;
+                    padding: 5px 0;
+                    font-size: 12px;
+                }
+            }
+        }
+        .dev-shop-cacel{
+            p{
+                line-height: 300px;
+            }
+        }
+        .dev-shop-barter{
+            p{
+                line-height: 200px;
+            }
+        }
+        .dev-shop-as{
+            p{
+                line-height:65px;
+            }
+        }
+      
+    }
+}
+#detail{
+    margin: 0;
+}

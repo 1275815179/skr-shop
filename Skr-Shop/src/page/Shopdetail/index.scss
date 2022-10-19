@@ -1,0 +1,27 @@
+$big-width: 1300px;
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.dev-big-glass {
+    width: $big-width;
+    margin: auto;
+}
+
+.dev-go {
+    width: 300px;
+    display: flex;
+    color: #1990FF;
+    justify-content: space-around;
+    padding: 20px 20px 20px 0;
+    cursor: pointer;
+    h3{
+        color: #1990FF;   
+    }
+
+}

@@ -1,0 +1,147 @@
+.offers {
+    width: 100%;
+
+    .offers-title {
+        width: 100%;
+        text-align: center;
+        font-size: 44px;
+        color: #000000a6;
+        padding: 40px 0;
+
+        p {
+            font-size: 44px;
+        }
+    }
+
+    .offers-price {
+        width: 100%;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .offers-tip {
+        padding: 40px 0;
+        width: 100%;
+        margin: 0 auto;
+
+        h3 {
+            font-size: 30px;
+        }
+
+        .offers-tip1 {
+            line-height: 30px;
+            font-size: 20px;
+            color: #000000a6;
+        }
+
+    }
+    .offers-steps {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .offers-off{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        box-sizing: border-box;
+         padding:  20px;
+        p{
+            width: 330px;
+            text-align: center;
+            border-left: 1px solid gainsboro;
+        }
+    }
+    .offers-form{
+        width: 100%;
+        margin: 0 auto;
+        h3{
+            font-size: 30px;
+            
+        }
+        .offers-froms{
+            padding: 30px;
+            border-bottom: 1px solid #000;
+             border-top: 1px solid ;
+             p{
+             width: 600px;
+             margin: 0 auto;
+             margin-bottom: 20px;
+                input{
+                    margin-left: 30px;
+                }
+             }
+             .offers-tain{
+                width: 600px;
+                margin: 0 auto;
+                background-color: #f2f2f2;
+                padding: 10px;
+                .mask{
+                    display: inline-block;
+                    width: 80px;
+                    text-align: center;
+                    border-radius: 5px;
+                    background-color: grey;
+                     margin-left: 230px;
+                }
+             }
+
+             .option{
+                float: right;
+                width: 300px;
+                margin-top: -57px;
+                overflow: hidden;
+             }
+        }
+    }
+    .ofers-time{
+        width: 800px;
+       padding: 50px;
+        display: flex;
+       .offers-out{ 
+         margin-left: 300px;
+        width: 100px;
+        height: 40px;
+       }
+       .offers-all{
+        margin: 0 auto;
+       
+        div{
+            button{
+                width: 100px;
+                height: 40px;
+                color: #f2f2f2;
+              background-color: #000;
+            }
+        }
+       }
+    }
+
+}
+.app1{
+    width: 800px;
+    margin: 0 auto;
+    .app1-list{
+        padding: 10px;
+        margin-left: 90px;
+       width: 600px;
+       input{
+            height: 30px;  
+            width: 130px;
+           border: 1px solid gainsboro;
+       }
+   .ipt1{
+    margin-right: 20px;
+    }
+    }
+    .ipt2{
+        margin-left: 20px;
+    }
+     input:focus{
+        outline: none;
+        border: 1px solid #1980ff;
+        }
+        
+}

@@ -1,0 +1,73 @@
+.detail{
+    .skr-heard{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        .skr-heard-p{
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+        .skr-heard-two{
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+            margin-bottom: 1.25rem;
+            div{
+                margin:0 3px;
+            }
+        }
+    }
+    .skr-main{
+        width: 93.75rem;
+        height: 300px;
+        background-color: #5A5A5A;
+        color: #fff;
+        padding: 45px 35px 0px 47px;
+        p{
+            font-size: 36px;
+        }
+    }
+    .skr-main-bottom{
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        border-bottom: 2px solid #000;
+        padding-left: 10px;
+    }
+    .skr-bottom-con{
+        .skr-bottom-content{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .content-one{
+                width: 250px;
+                border: 1px solid rgba(211, 208, 208, 0.632);
+                margin-top: 30px;
+                padding-bottom: 20px;
+                cursor: pointer;
+                p{
+                    font-size: 16px;
+                    text-align: center;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    padding: 0 35px;
+                    margin-top: 30px;
+                }
+                div{
+                    text-align: center;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            &::after {
+                content: '';
+                width: 38.5%; 
+                height: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}

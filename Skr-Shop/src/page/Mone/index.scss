@@ -1,0 +1,446 @@
+
+
+.skr-mypage {
+    width: 100%;
+
+    .zhanwei {
+        height: 200px;
+        width: 100%;
+    }
+
+    //标题
+    .skr-mypage-title {
+        margin-top: 65px;
+        text-align: center;
+
+        p {
+            font-size: 40px;
+            width: 100%;
+            color: #000;
+            margin: 0;
+        }
+    }
+
+    //修改密码
+    .skr-mypage-jump {
+        text-align: center;
+
+        .skr-jump-home {
+            a {
+                color: #000000a6;
+            }
+
+            span {
+                margin-left: 10px;
+            }
+        }
+
+        //遮罩层修改密码
+        .skr-jump-mask {
+            cursor: pointer;
+
+            .changePassword {
+                width: 100px;
+                font-weight: 800;
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+
+            .forgetPassword {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, .4117647058823529);
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: none;
+                z-index: 66;
+
+                .modify {
+                    width: 400px;
+                    height: 400px;
+                    background-color: #fff;
+                    margin: 100px auto;
+
+                    .closeModify {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        border-color: #fff;
+                        margin-left: 360px;
+                        font-size: 24px;
+                        background-color: #fff;
+                    }
+
+                    .modify_ipt {
+                        width: 350px;
+                        height: 220px;
+                        margin: 0 auto;
+
+                        .ipt1 {
+                            div {
+                                margin-top: 50px;
+
+                                span {
+                                    font-size: 16px;
+                                    margin-left: -30px;
+                                }
+                                input {
+                                    border: none;
+                                    padding: 10px;
+                                    background-color: #f2f2f2;
+                                    margin-left: 50px;
+                                    width: 220px;
+                                }
+                                button{
+                                    width: 160px;
+                                    padding: 10px 0;
+                                }
+                            }
+                        }
+                        .sure {
+                            margin-top: 40px;
+                        }
+                    }
+
+                }
+
+            }
+
+            #active {
+                display: block;
+            }
+        }
+    }
+    //下拉菜单
+    .skr-mypage-list {
+        width: 100%;
+        margin-top: 30px;
+
+        .skr-upshow {
+            position: absolute;
+            text-align: center;
+            left: 88%;
+            top: 42px;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+            background-color: #f3f3f3;
+        }
+
+        .skr-mypage-listColor {
+            position: relative;
+            background-color: #f3f3f3;
+        }
+
+        #active {
+            height: 0;
+            opacity: 0;
+        }
+
+        .skr-list2Color {
+            width: 100%;
+            border-bottom: 1px solid gainsboro;
+        }
+
+        .skr-list2 {
+            background-color: #fff;
+
+            li {
+                border-right: 1px solid gainsboro;
+            }
+        }
+
+        .skr-list2,
+        .skr-list1 {
+            width: 1000px;
+            margin: 0 auto;
+            padding: 10px 0;
+
+            li {
+                width: 300px;
+            }
+
+            display: flex;
+            text-align: center;
+        }
+    }
+
+    //图片跳转
+    .skr-mypage-img {
+        width: 100%;
+        margin: 40px auto;
+        padding: 0 20px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    // 订单列表
+    .skr-more-dingdan {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0 30px;
+
+        .skr-more-title {
+            width: 100%;
+            display: flex;
+            border-bottom: 3px solid #000000;
+            justify-content: space-between;
+
+            h3 {
+                font-size: 24px;
+                color: #000000;
+                ;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .skr-more-detail {
+            width: 100%;
+            padding: 0 30px;
+
+            .skr-more-detail1 {
+                border-bottom: 1px solid gainsboro;
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+
+                li {
+                    text-align: center;
+                    line-height: 80px;
+                    font-size: 14px;
+                    font-weight: 800;
+                }
+            }
+
+            .skr-more-what {
+                border-bottom: 1px solid #000;
+
+                .skr-more-what1 {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+
+                    li {
+                        text-align: center;
+                        line-height: 80px;
+                    }
+                }
+            }
+        }
+    }
+
+    // 收获地址
+    .skr-address {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0 30px;
+
+        .skr-more-title {
+            width: 100%;
+            display: flex;
+            border-bottom: 3px solid #000000;
+            justify-content: space-between;
+            font-size: 24px;
+
+            h3 {
+                font-size: 24px;
+                color: #000000;
+            }
+
+            .skr-new-skr {
+                text-align: center;
+                .skr-new-skr1 {
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 10px;
+                    padding: 8px;
+                    background-color: #000;
+                    border-radius: 50%;
+                    font-size: 20px;
+                    cursor: pointer;
+                    color: #fff;
+                }
+            }
+
+            .forgetPassword {
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: none;
+                z-index: 66;
+
+                .modify {
+                    width: 700px;
+                    height: 470px;
+                    background-color: #fff;
+                    margin: 100px auto;
+                    box-shadow: 2px 2px 5px #ccc;
+                }
+
+                .modify-title {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    padding: 10px;
+                    border-bottom: 2px solid #e6e6e6;
+
+                    h3 {
+                        color: rgba(0, 0, 0, .85);
+                        font-weight: 500;
+                    }
+
+                    .modify-cancel {
+                        margin-top: 10px;
+                        width: 20px;
+                        height: 20px;
+                        border: 1px solid;
+                        border-radius: 50px;
+                        cursor: pointer;
+                        line-height: 15px;
+                    }
+                }
+
+                .modify-info {
+                    padding: 20px;
+                    box-sizing: border-box;
+                    display: flex;
+
+                    div {
+                        margin-left: 30px;
+                        font-size: 16px;
+                        text-align: left;
+                        input {
+                            margin-top: 15px;
+                            width: 250px;
+                        }
+                    }
+                }
+
+                .address_item {
+                    display: flex;
+                    font-size: 14px;
+
+                    div {
+                        margin-left: 50px;
+                    }
+                }
+
+                .address-check {
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 28px;
+                }
+                .address-total{
+                    padding-left: 50px;
+                    padding-bottom: 20px;
+                    font-size: 16px;
+                    border-bottom: 1px solid #e6e6e6;
+                    text-align: left;
+                    div{
+                      margin-top: 20px;  
+                    input{
+                        width: 450px;
+                        border: 1px solid gainsboro;
+                    }  
+                    }
+                }
+                .address-end{
+                    display: flex;
+                    justify-content: right;
+                    padding-top: 20px;
+                    padding-right: 30px;
+                    .modify-cancel-b{
+                        width: 90px;
+                        height: 45px;
+                        line-height: 45px;
+                        text-align: center;
+                        border: 1px solid #e6e6e6;
+                        &:hover {
+                            cursor: pointer;
+                            background-color: #e6e6e6;
+                        }
+                    }
+                    .modify-cancel-yes{
+                        width: 100px;
+                        height: 45px;
+                        line-height: 45px;
+                        text-align: center;
+                        color: #fff;
+                        border: 1px solid #4c4c4c;
+                        background-color: #4c4c4c;
+                        margin-left: 20px;
+                        &:hover {
+                            cursor: pointer;
+                            background-color: #4c4c4cc2;
+                        }
+                    }
+                }
+                
+            }
+            #address {
+                display: block;
+            }
+        }
+
+        .skr-address-list {
+            width: 100%;
+
+            .skr-address-list1 {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                font-size: 14px;
+                font-weight: 800;
+                border-bottom: 1px solid gainsboro;
+
+                li {
+                    line-height: 80px;
+                    display: flex;
+
+                    div {
+                        width: 180px;
+                        position: relative;
+
+                        .skr-that {
+                            position: absolute;
+                            top: 0;
+                            left: 400px;
+                            .skr-that-but{
+                                background-color: #fff;
+                            }
+                            .skr-that-button{
+                                background-color: #4c4c4c;
+                                color: #fff;
+                            }
+                            button {
+                                width: 80px;
+                                border-radius: 3px;
+                            }
+                        }
+
+                        button {
+                            width: 50px;
+                            line-height: 25px;
+                            height: 30px;
+                            margin-right: 20px;
+                            background-color: #f3f3f3;
+                        }
+                    }
+                }
+            }
+        }
+
+        .null {
+            height: 100px;
+        }
+    }
+}

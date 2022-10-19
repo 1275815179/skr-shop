@@ -1,0 +1,121 @@
+.pageBody {
+  width: 80%;
+  margin: 0 auto;
+  .contentP {
+    line-height: 25px;
+  }
+  .headerTitle {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 81px;
+    border-bottom: 1px solid #d9d9d9;
+
+    .headerTitleH {
+      font-size: 44px;
+    }
+  }
+
+  .bodyText {
+    .bodyChild {
+      .mainTitle {
+        font-size: 18px;
+        margin: 40px 0 10px;
+      }
+
+      .titleP {
+        font-size: 20px;
+        color: #000;
+        margin: 3px 0 5px;
+      }
+
+      .bodyChildP {
+        margin-bottom: 26px;
+      }
+    }
+  }
+
+  .BigMiddleRule {
+    position: relative;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+
+    .LittleMiddleRule {
+      position: relative;
+      height: auto;
+      margin-right: 0;
+      margin-left: 0;
+      zoom: 1;
+      display: block;
+      box-sizing: border-box;
+
+      .SmileMiddleRule {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 33.33333333%;
+      }
+    }
+  }
+
+  .tableBox {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    clear: both;
+
+    table {
+      width: 100%;
+      text-align: left;
+      border-radius: 4px 4px 0 0;
+      border-collapse: separate;
+      border-spacing: 0;
+
+      thead {
+        width: 100%;
+        text-align: left;
+        border-radius: 4px 4px 0 0;
+        border-collapse: separate;
+        border-spacing: 0;
+
+        th {
+          padding: 16px 16px;
+          overflow-wrap: break-word;
+          color: rgba(0, 0, 0, 0.85);
+          font-weight: 500;
+          text-align: left;
+          background: #fafafa;
+          border-bottom: 1px solid #e8e8e8;
+        }
+      }
+    }
+
+    .bigTableContent {
+      position: relative;
+      z-index: 1;
+      margin-top: -1px;
+      padding: 16px 16px;
+      color: rgba(0, 0, 0, 0.25);
+      font-size: 14px;
+      text-align: center;
+      background: #fff;
+      border-top: 1px solid #e8e8e8;
+      border-bottom: 1px solid #e8e8e8;
+      border-radius: 0 0 4px 4px;
+
+      .smileTableContent {
+        margin: 32px 0;
+        color: rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+}

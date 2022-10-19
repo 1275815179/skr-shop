@@ -1,0 +1,231 @@
+.dev-shop-detail {
+  margin-bottom: 40px;
+    .dev-shop-box {
+        display: flex;
+        justify-content: space-around;
+
+        //   左侧小盒子
+        .dev-shop-one {
+
+            
+            li {
+                width: 70px;
+                height: 70px;
+                margin: 0 0 10px 10px;
+                border: 2px solid transparent;
+                padding: 2px;
+                &.current{
+                    border: 2px solid lightblue;
+                }
+
+                img {
+                   
+                    height: 100%;
+                }
+            }
+            
+            
+        }
+
+        // 中间大盒子
+        .dev-shop-two {
+            width: 600px;
+            height: 600px;
+
+            img {
+                width: 100%;
+            }
+        }
+        .dev-shop-mask{
+            display: none;
+            width: 500px;
+            height: 150px;
+            box-shadow: 0 0 5px 5px #ccc;
+            position: fixed;
+            top: 150px;
+            z-index: 1000;
+            background-color: #fff;
+            .dev-shop-login{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                border-bottom: 1px solid #ccc;
+                padding: 15px;
+                nav{
+                    width: 20px;
+                    height: 20px;
+                    border: 1px solid #666;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    p{
+                        color: #666;
+                        line-height: 17px;
+                    }
+                }
+            }
+            .dev-shop-chioce{
+                position: absolute;
+                left: 350px;
+                top: 100px;
+                display: flex;
+                justify-content: space-between;
+                width: 120px;
+                // right: 30px;
+                cursor: pointer;
+               .dev-shop-sure{
+                width: 50px;
+                height: 30px;
+                background-color: #40A9FF;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 2px;
+                font-size: 14px;
+
+               }
+               .dev-shop-cancel{
+                width: 50px;
+                height: 30px;
+                border: 1px solid #ccc;
+                font-size: 14px;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 2px;
+               }
+            }
+        }
+        // 右侧大盒子
+        .dev-shop-three {
+            width: 500px;
+            margin-left: 20px;
+           h1{
+            font-size: 30px;
+           }
+            span {
+                display: inline-block;
+                padding: 30px 0;
+                font-size: 20px;
+            }
+
+            :nth-child(3) {
+                font-size: 14px;
+                color: #999;
+                text-decoration: line-through;
+            }
+
+            nav {
+                width: 500px;
+                height: 60px;
+                background-color: #F7F7F7;
+                display: flex;
+                line-height: 60px;
+                margin: 10px 0;
+
+                :nth-child(1) {
+                    display: inline-block;
+                    width: 50px;
+                    height: 25px;
+                    border-radius: 3px;
+                    line-height: 25px;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #fff;
+                    background-color: black;
+                    margin-top: 17.5px;
+                    margin-left: 10px;
+                }
+                :nth-child(2) {
+                    color: #666;
+                    margin-top: 20px; 
+                }
+            }
+
+            .dev-shop-four {
+                display: flex;
+                justify-content: flex-start;
+                width: 250px;
+                flex-wrap: wrap;
+                margin-top: 90px;
+
+                li {
+                    width: 70px;
+                    height: 70px;
+                    margin: 0 0 10px 10px;
+                    border: 2px solid transparent;
+                    padding: 2px;
+                    &.current{
+                        border: 2px solid lightblue;
+                    }
+    
+                    img {
+                       
+                        height: 100%;
+                    }
+                }
+            }
+
+            .dev-shop-five {
+                width: 100%;
+                margin-top: 40px;
+                border-top: 1px solid #666;
+                border-bottom: 1px solid #666;
+                display: flex;
+                justify-content: space-between;
+
+                .dev-shop-size,
+                .dev-shop-num {
+                    padding: 10px 0;
+                    border: none;
+                    width: 275px;
+                    color: #666;
+
+                    label {
+                        font-size: 16px;
+                    }
+
+                    select {
+                        width: 130px;
+                        border: none;
+                        outline: none;
+                    }
+
+                    input {
+                        width: 130px;
+                        outline: none;
+                        border: none;
+                    }
+                }
+            }
+
+            .dev-shop-six {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 50px;
+                cursor: pointer;
+
+                .dev-shop-add,
+                .dev-shop-buy {
+                    border: 1px solid;
+                    width: 230px;
+                    height: 69px;
+                    line-height: 70px;
+                    text-align: center;
+                    font-size: 18px;
+                }
+                p{
+                    line-height: 69px;
+                    :nth-child(1){
+                        font-size: 20px
+                    }
+                }
+                .dev-shop-buy {
+                    font-weight: 700;
+                    color: #fff;
+                    background-color: black;
+                }
+            }
+        }
+    }
+}

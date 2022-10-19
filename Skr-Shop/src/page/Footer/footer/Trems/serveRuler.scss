@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  .pageBody {
+    width: 80%;
+    margin: 0 auto;
+    .headerTitle {
+      width: 80%;
+      height: 200px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 81px;
+      border-bottom: 1px solid #d9d9d9;
+
+      .headerTitleH {
+        font-size: 44px;
+      }
+    }
+    .bodyText {
+      .bodyChild {
+        .mainTitle {
+          font-size: 18px;
+          margin: 40px 0 10px;
+        }
+        .titleP {
+          font-size: 14px;
+          color: #000;
+          margin: 3px 0 5px;
+        }
+        .bodyChildP {
+          margin-bottom: 20px;
+          .contentP {
+          }
+        }
+      }
+    }
+  }
+}

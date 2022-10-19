@@ -1,0 +1,51 @@
+html,body{
+
+    scroll-behavior: smooth;
+
+    }
+.Sidebar {
+   
+  transition: all 0.5s;
+  width: 355px;
+  
+  position: fixed;
+  bottom: 0px;
+  right: -300px;
+  z-index: 999;
+  //   position: relative;
+  .sidebar {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    width: 55px;
+    background-color: black;
+    padding: 7px 0px;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    button {
+      cursor: pointer;
+      margin: 3px 0;
+      width: 55px;
+      height: 40px;
+      border: none;
+      outline: none;
+      background-color: rgba(1, 1, 1, 0);
+      color: #fff;
+    }
+  }
+  .rightContent {
+    vertical-align: bottom;
+
+    position: relative;
+   
+    z-index: 999999999;
+    left: 55px;
+    width: 300px;
+    // height: 100px;
+    height: 100vh;
+    // border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    // position: relative;
+  }
+}

@@ -1,0 +1,33 @@
+.global {
+    width: 100%;
+    .global-title{
+        background-color:coral ;
+        height: 30px;
+        width: 100%;
+    }
+    .global-tips{
+      position: relative;
+       .global-tip {
+        position: absolute;
+        top: -320px;left: 50px;
+        width: 100%;
+        color: #76b3ea;
+        font-style: oblique;
+        font-size: 80px;
+        h3{
+        font-size: 100px;
+        color: #76b3ea;  
+        font-style: oblique;
+        }
+    }
+    }
+    
+    .center{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+       img{
+         width: 100%;
+        }
+    }
+}

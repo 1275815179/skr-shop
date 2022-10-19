@@ -1,0 +1,227 @@
+.BasketballShoes {
+  width: 100%;
+  text-align: center;
+  margin-top: 8px;
+  .slick-dots li button:before,
+  .BasketballShoes .slick-dots li button:before{
+    // font-family: 'slick';
+    font-size: 0px;
+  }
+  .ant-carousel .slick-dots li button{
+    background-color: blue;
+  }
+  
+  p {
+    color: #333;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 0 20px 0;
+    font-weight: 100;
+  }
+
+  .AnCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .ant-card {
+      border: 1px solid #e8e8e8;
+      width: calc(25% - 8px);
+      margin: 4px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .ant-card-body {
+        h2 {
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 8px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          color: #333;
+        }
+
+        h3 {
+          color: #666;
+
+          font-size: 12px;
+          line-height: 1.5;
+          font-weight: 500;
+          word-break: keep-all;
+        }
+      }
+
+      &:hover {
+        box-shadow: #333 0 0 1px;
+      }
+    }
+
+
+  }
+
+  .swiperone{
+    width: 100%;
+    .slick-arrow{
+      height: 50px !important;
+      display: inline-block;
+      background:rgba(158, 158, 158, 0.755) !important;
+      color: #333 !important;
+    }
+    .swiperone-div{
+      border: 1px solid rgb(207, 204, 204);
+      margin-left:25px;
+      padding:20px 35px ;
+      p{
+        font-size: 16px !important;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+      }
+      &:hover{
+        box-shadow: 0 0 20px 0px rgba(153, 153, 153, 0.318);
+      }
+    }
+    .slick-prev:before, 
+    .slick-next:before {
+      font-family: 'slick';
+      font-size: 20px;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+  }
+  .swipertwo{
+    .swiperone-div{
+      cursor: pointer;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 419px !important;
+      cursor: pointer;
+      &:hover{
+        box-shadow: 0 0 20px 0px rgba(153, 153, 153, 0.318);
+      }
+      .swiperone-zhe{
+        position: absolute;
+        top: 0;
+        width: 419px;
+        height: 419px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #e8e8e8;
+        font-size: 30px;
+        font-weight: 700;
+        opacity: 0;
+        // background-color: rgba(184, 65, 217, 0.568);
+        transition: all 0.5s;
+        &:hover{
+          opacity: 1;
+          
+        }
+        
+      }
+    }
+    
+  }
+  .swiperfour{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    .swiperfour-crossing{
+      width: 138px;
+      margin: 0 7px;
+      padding-bottom: 10px;
+      border: 1px solid rgb(224, 223, 223);
+      img{ 
+        width: 100%;
+      }
+      p{
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        margin-top: 30px;
+        padding: 0 3px;
+      }
+      &:hover{
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(153, 153, 153, 0.318);
+      }
+    }
+  }
+  .swiperfive{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    .swiperfive-left{
+      width: 600px;
+    }
+    .swiperfive-right{
+      width: 700px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+ 
+      .swiperfour-crossing{
+        width: 140px;
+        margin: 0 7px;
+        padding-bottom: 10px;
+        border: 1px solid rgb(224, 223, 223);
+        img{ 
+          width: 100%;
+        }
+        p{
+          font-size: 14px;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          margin-top: 30px;
+          padding: 0 3px;
+        }
+        &:hover{
+          cursor: pointer;
+          box-shadow: 0 0 20px 0px rgba(153, 153, 153, 0.318);
+        }
+      }
+    }
+  }
+  // 商品详情
+  .skr-detail{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    .skr-detail-left{
+      width: 100px;
+      padding-top: 20px;
+      margin-right: 20px;
+      .skr-detail-left-first{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: right;
+        margin: 0;
+      }
+      .skr-detail-left-second {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: right;
+        margin: 0;
+        span {
+          padding-top: 3px;
+        }
+      }
+    }
+  }
+}

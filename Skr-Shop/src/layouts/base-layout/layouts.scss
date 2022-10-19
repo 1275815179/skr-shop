@@ -1,0 +1,95 @@
+.skr-nav-shoptop{
+    width: 100%;
+    margin: auto;
+    height: 4.0625rem;
+    .skr-router{
+        display: flex;
+        justify-content: space-between;
+        .skr-router-left{
+            position: relative;
+            a{
+                position: absolute;
+                left: 0;
+                display: inline-block;
+                width: 10.75rem;
+                height: 4.0625rem;
+            }
+        }
+        .skr-router-center{
+            height: 4.0625rem;
+            display: flex;
+            align-items: center;
+        }
+        .skr-router-right{
+            height: 4.0625rem;
+            line-height: 4.0625rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .skr-nav-shoptop-two{
+        display: flex;
+        justify-content: space-evenly;
+        height: 4.0625rem;
+        background-color: #000;
+        .skr-nav-shoptop-two-left,
+        .skr-nav-shoptop-two-right {
+            width: 500px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .skr-navlink-two{
+            color: #fff;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 4.0625rem;
+            position: relative;
+            &:hover{
+                color: rgb(187, 172, 172);
+            }
+        }
+        .skr-navlink-twbu{
+            position: absolute;
+            top: 8.125rem;
+            z-index: 999;
+            width: 100%;
+            height: 300px;
+            background-color: rgb(246, 244, 244);
+            // opacity: 0;
+            display: none;
+            transition: all 0.5s;
+            .skr-navlink-twbu-t{
+                display: flex;
+                justify-content: center;
+                .skr-navlink-twbu-ts{
+                    width: 83.75rem;
+                    display: flex;
+                    justify-content: space-around;
+                    .skr-navlink-twbu-ts-left{
+                        width: 40rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-top: 10px;
+                        div {
+                            width: 10rem;
+                            text-align: left;
+                            padding: 5px 0px;
+                            font-size: 14px;
+                            &:hover{
+                                color: rosybrown;
+                                cursor: pointer;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                    .skr-navlink-twbu-ts-right{
+                        width: 40rem;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+

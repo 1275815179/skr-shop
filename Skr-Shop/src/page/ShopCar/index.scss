@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.shopCar {
+  width: 1300px;
+  margin: auto;
+  input {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+  .dev-myShopcar {
+    width: 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      font-weight: 800;
+      position: relative;
+      &::after{
+        content: "";
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 55px;
+    height: 4px;
+    background-color: #000;
+      }
+    }
+    span {
+      font-size: 10px;
+      vertical-align: bottom;
+      margin-top: 20px;
+    }
+  }
+  .dev-checkall {
+    width: 60px;
+    label{
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+    span {
+      font-size: 12px;
+      margin-left: 10px;
+      
+      color: #666;
+      cursor: pointer;
+
+    }
+  }
+  .dev-shops {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 50px 0 ;
+    .dev-bigBox {
+      display: flex;
+      justify-content: space-between;
+      width: 1300px;
+      .dev-checkbox {
+        width: 200px;
+        input {
+          vertical-align: middle;
+        }
+      }
+      .dev-shop-middle {
+        width: 900px;
+        display: flex;
+        justify-content: flex-start;
+        img {
+          width: 100px;
+          height: 110px;
+        }
+        .dev-shop-aaa {
+          margin-left: 20px;
+          .title {
+            font-size: 18px;
+          }
+          .color {
+            font-size: 14px;
+          }
+          .num {
+            .subtract,
+            .argment {
+              width: 30px;
+            }
+            .number {
+              width: 50px;
+            }
+          }
+        }
+      }
+      .dev-shop-price {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        width: 60px;
+        .special_price {
+          font-size: 18px;
+          &::before{
+            content: "￥";
+          }
+        }
+        .price {
+          text-decoration: line-through;
+          font-size: 14px;
+          color: #666;
+        }
+        .del {
+          cursor: pointer;
+          &:hover{
+            color: #ED4025;
+          }
+        }
+      }
+    }
+  }
+  .dev-shop-account {
+    width: 100%;
+    background-color: #3E3E3E;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    bottom: 10px;
+    left: 0;
+    justify-content: flex-end;
+   text-align: center;
+    h2{
+        width: 200px;
+        text-align: center;
+        color: #fff;
+        line-height: 70px;
+        font-size: 16px;
+    }
+    .dev-shop-add{
+        a{
+          display: inline-block;
+          width:150px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        color: #fff;
+        background-color: #ED4025;
+        
+        }
+    }
+  }
+}

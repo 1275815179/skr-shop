@@ -1,0 +1,56 @@
+.ProductList {
+  cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    &::after{
+      content: "";
+      flex-grow: .90;
+    }
+    li {
+      width: 230px;
+      height: 326px;
+      list-style: none;
+      border: 1px solid rgb(225, 225, 225);
+      margin-bottom: 20px;
+      img {
+        width: 228px;
+        height: 228px;
+      }
+      .title {
+        padding-left: 7px;
+        cursor: pointer;
+        overflow: hidden;
+        font-weight: 500;
+        font-size: 16px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-bottom: 8px;
+      }
+      .activity {
+        padding-left: 7px;
+        font-size: 14px;
+        cursor: pointer;
+        color: #ccc;
+      }
+      .price {
+        padding-left: 7px;
+        margin-top: 10px;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: bolder;
+      }
+      del {
+        cursor: pointer;
+        color: #ccc;
+        font-weight: 400;
+        margin: 0 50px;
+      }
+      .discount {
+        cursor: pointer;
+        color: red;
+        font-weight: 400;
+      }
+    }
+  }

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.main {
+    width:100%;
+
+    // background-color: black;
+    position: relative;
+    .a{
+        position: absolute;
+        top: 65px;
+        height: 65px;
+        width: 100%;
+        background-color: black;
+        z-index: -1;
+    }   
+    .skr-main{
+        margin: auto;
+        width: 87.5rem;
+    }
+}
